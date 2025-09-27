@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/zhangping99/myflaskapp.git', branch: 'main'
+                git url: 'https://github.com/Xddcc-bbd/myflaskapp.git', branch: 'main'
             }
         }
         stage('Fix pip') {
